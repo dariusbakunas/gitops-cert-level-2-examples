@@ -4,7 +4,7 @@ kind: Deployment
 metadata:
   name: simple-deployment
   labels:
-    enviroment: dev
+    environment: dev
 spec:
   replicas: 1
   selector:
